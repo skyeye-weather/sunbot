@@ -1,8 +1,10 @@
 [tool.poetry]
-name = "discord-bot-template"
+name = "sunbot"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "discord bot providing current and forecast weather"
+authors = [
+    {name = "Clément Pagés", email = "clement.pages@etik.com"},
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
