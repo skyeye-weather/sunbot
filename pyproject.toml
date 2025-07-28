@@ -2,8 +2,8 @@
 name = "sunbot"
 version = "0.1.0"
 description = "discord bot providing current and forecast weather"
-authors = [
-    {name = "Clément Pagés", email = "clement.pages@etik.com"},
+authors = [ 
+    "Clément Pagés <clement.pages@etik.com>",
 ]
 
 [tool.poetry.dependencies]
@@ -20,5 +20,5 @@ levenshtein = "^0.23.0"
 [tool.poetry.dev-dependencies]
 
 [build-system]
-requires = ["poetry>=0.12"]
-build-backend = "poetry.masonry.api"
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
