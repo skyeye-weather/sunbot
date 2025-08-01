@@ -3,3 +3,6 @@
 .env
 Test/**
 Data/**
+
+# project manager
+poetry.toml
