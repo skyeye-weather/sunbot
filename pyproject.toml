@@ -5,6 +5,9 @@ description = "discord bot providing current and forecast weather"
 authors = [ 
     "Clément Pagés <clement.pages@etik.com>",
 ]
+packages = [
+    { include = "sunbot" }
+]
 
 [tool.poetry.dependencies]
 python = "~3.12"

@@ -1,7 +1,10 @@
 FROM python:3.12
-RUN pip install poetry
+
 WORKDIR /code
-COPY poetry.lock pyproject.toml /code/
-RUN poetry config virtualenvs.create false && poetry install --no-interaction --no-ansi
 COPY . /code
+
+RUN pip install poetry
+RUN poetry config virtualenvs.create false
+RUN poetry install --no-interaction --no-ansi
+
 CMD python main.py
