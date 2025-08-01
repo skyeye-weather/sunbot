@@ -493,7 +493,7 @@ def addHumidityData(request_response: dict, weather_image: SunImage) -> None:
     )
 
 
-def createCurrentWeatherImage(currentWeather: dict, path: str) -> None:
+def createCurrentWeatherImage(currentWeather: dict, _path: str) -> None:
     """Creates an image for the API response specified in arguments
     ## Parameters :
     * `currentWeather` : response returned by the weather API, as a dictionnary
